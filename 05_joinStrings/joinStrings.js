@@ -1,8 +1,6 @@
-const name= Carlos;
-const lastName=Stevenson;
-const thisYear=1965;
-const birthYear=1947;
-const greeting= "Hello! My name is" + name + lastName + "and I am" + thisYear - birthYear + "years old.";
+const fullName= Carlos Stevenson;
+const age=1965 - 1947;
+const greeting= "Hello! My name is" + fullName + "and I am" + age + "years old.";
 
 // Do not change this
 module.exports = {
